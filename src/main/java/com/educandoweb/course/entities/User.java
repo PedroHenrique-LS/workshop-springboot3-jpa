@@ -23,6 +23,8 @@ public class User implements Serializable {
 	private String fone;
 	private String password;
 	
+	public User() {}
+	
 	public User(Long id, String nome, String email, String fone, String password) {
 		this.id = id;
 		this.nome = nome;
